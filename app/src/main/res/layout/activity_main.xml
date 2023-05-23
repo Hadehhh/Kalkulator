@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".MainActivity"
+    android:background="#def3f6">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:layout_marginBottom="20dp">
+
+
+        <EditText
+            android:id="@+id/et_angka1"
+            android:layout_width="175dp"
+            android:layout_height="90dp"
+            android:background="#ffffff"
+            android:gravity="center"
+            android:layout_marginRight="20dp"
+            android:hint="0" />
+
+        <EditText
+            android:id="@+id/et_angka2"
+            android:layout_width="175dp"
+            android:layout_height="90dp"
+            android:gravity="center"
+            android:background="#ffffff"
+            android:hint="0" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tv_hasil"
+        android:layout_width="370dp"
+        android:layout_height="50dp"
+        android:gravity="center"
+        android:background="#ffffff"
+        android:textSize="25sp"
+        android:layout_marginBottom="25dp"
+        android:text="Hasil" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btn_tambah"
+            android:layout_width="60dp"
+            android:layout_height="70dp"
+            android:layout_margin="10dp"
+            android:textSize="30sp"
+            android:backgroundTint="#13416B"
+            android:textColor="#def3f6"
+            android:text="+" />
+
+        <Button
+            android:id="@+id/btn_kurang"
+            android:layout_width="60dp"
+            android:layout_height="70dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginRight="10dp"
+            android:textSize="30sp"
+            android:backgroundTint="#13416B"
+            android:textColor="#def3f6"
+            android:text="-" />
+
+        <Button
+            android:id="@+id/btn_kali"
+            android:layout_width="60dp"
+            android:layout_height="70dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginRight="10dp"
+            android:textSize="30sp"
+            android:backgroundTint="#13416B"
+            android:textColor="#def3f6"
+            android:text="*" />
+
+        <Button
+            android:id="@+id/btn_bagi"
+            android:layout_width="60dp"
+            android:layout_height="70dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginRight="10dp"
+            android:textSize="30sp"
+            android:backgroundTint="#13416B"
+            android:textColor="#def3f6"
+            android:text="/" />
+
+        <Button
+            android:id="@+id/btn_clear"
+            android:layout_width="90dp"
+            android:layout_height="70dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginRight="10dp"
+            android:textSize="15sp"
+            android:backgroundTint="#13416B"
+            android:textColor="#def3f6"
+            android:text="Clear" />
+    </LinearLayout>
+
+</LinearLayout>
